@@ -35,7 +35,7 @@ Este proyecto se ha desarrollado utilizando Python y diversas bibliotecas de mac
 
 - Generación de recomendaciones personalizadas basadas en el historial de películas del usuario.
 - Soporte para filtrado colaborativo y contenido para mejorar la precisión de las recomendaciones.
-- Interfaz de usuario intuitiva y fácil de usar mediante una API RESTful.
+- Interfaz de usuario intuitiva y fácil de usar mediante FASTAPI.
 - Integración con una base de datos de películas para acceder a información detallada sobre cada película, como el título, género, reparto y director.
 
 ## Guía de instalación
