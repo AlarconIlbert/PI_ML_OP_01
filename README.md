@@ -2,24 +2,18 @@
 <h2 align="center">PROYECTO INDIVIDUAL 1<br></h2>
 </p>
 
-**Machine Learning Operations (MLOps)**<br>
-**Data Scientis:** _Ilbert Ferney Alarcon_ 😎<br>
-**Cohorte 11**<br>
-
-
-**PI_ML_OP_01**
-Repositorio PI-01 HENRY
-
 <p align="center">
 <a href="https://github.com/AlarconIlbert"><img src="https://img.shields.io/badge/python-FFFF0.svg?style=for-the-badge&logo=python&logoColor=0768a8&labelColor=ffffff" alt="python"></a> <img src="https://img.shields.io/badge/vscode-blue.svg?style=for-the-badge&logo=visual-studio-code&labelColor=ffffff&logoColor=blue" alt="vscode"> <a href="https://github.com/AlarconIlbert"><img src="https://img.shields.io/badge/github-black.svg?style=for-the-badge&logo=github&logoColor=black&labelColor=ffffff" alt="github"></a>
 </p>
 
-<p align="center">
+**Machine Learning Operations (MLOps)**<br>
+**Data Scientis:** _Ilbert Ferney Alarcon_ 😎<br>
 
-[![Linkedin: thaianebraga](https://img.shields.io/badge/-ILBERT-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ilbert-ferney-alarcon-bothia/)](https://www.linkedin.com/in/anmol-p-singh/) ![GitHub followers](https://img.shields.io/github/followers/AlarconIlbert?label=Follow&style=social) [![](https://img.shields.io/badge/Outlook-ilbert.alarcon@outlook.com-red)](mailto:ilbert.alarcon@outlook.com)
+[![Linkedin: thaianebraga](https://img.shields.io/badge/-ILBERT-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ilbert-ferney-alarcon-bothia/)](https://www.linkedin.com/in/anmol-p-singh/)![GitHub followers](https://img.shields.io/github/followers/AlarconIlbert?label=Follow&style=social) [![](https://img.shields.io/badge/Outlook-ilbert.alarcon@outlook.com-red)](mailto:ilbert.alarcon@outlook.com)
 
-</p>
-
+**Cohorte 11**
+**PI_ML_OP_01**
+Repositorio PI-01 HENRY
 
 # Sistema de Recomendaciones
 
