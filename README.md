@@ -1,7 +1,6 @@
 <center>
 
-## **ETL (Extract - Transform - Load)**<br>
-**_PROYECTO INDIVIDUAL 1_**<br>
+## **_PROYECTO INDIVIDUAL 1_**<br>
 
 </center>
 
@@ -10,8 +9,7 @@
 **Cohorte 11**<br>
 
 
-# PI_ML_OP_01
-
+**PI_ML_OP_01**
 Repositorio PI-01 HENRY
 <center>
 <a href="https://github.com/AlarconIlbert"><img src="https://img.shields.io/badge/python-FFFF0.svg?style=for-the-badge&logo=python&logoColor=0768a8&labelColor=ffffff" alt="python"></a> <img src="https://img.shields.io/badge/vscode-blue.svg?style=for-the-badge&logo=visual-studio-code&labelColor=ffffff&logoColor=blue" alt="vscode"> <a href="https://github.com/AlarconIlbert"><img src="https://img.shields.io/badge/github-black.svg?style=for-the-badge&logo=github&logoColor=black&labelColor=ffffff" alt="github"></a>
