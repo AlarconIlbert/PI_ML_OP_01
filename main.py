@@ -17,11 +17,12 @@ from sklearn.metrics.pairwise import cosine_distances
 #Creo una instancia de FastAPI
 app = FastAPI()
 
+
 #---- PRESENTACIÓN--------
 
 # Leer el archivo generado por ETL
-df = pd.read_csv('D:\_DATA SCIENTIST\PI_ML_OP_01\DATASET\Movies_ETL_ILB.csv')
-ml_df = pd.read_csv('D:\_DATA SCIENTIST\PI_ML_OP_01\DATASET\Movies_ML_ILB.csv')
+df = pd.read_csv('DATASET/Movies_ETL_ILB.csv')
+ml_df = pd.read_csv('DATASET/Movies_ML_ILB.csv')
 
 @app.get("/")
 def bienevenida():
