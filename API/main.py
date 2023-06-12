@@ -27,11 +27,6 @@ ml_df = pd.read_csv('D:\_DATA SCIENTIST\PI_ML_OP_01\DATASET\Movies_ML_ILB.csv')
 def bienevenida():
     return "Bievenidos a mi PI_ML_OPS By: Ilbert Alarcon, aqui podras consultar diferentes peliculas gracias que lo disfrutes"
 
-@app.get("/menu")
-def menu():
-    return "Las funciones que encontrara son las siguientes: (1) get_max_duration (2) get_score_count (3) get_count_platform (4) get_actor"
-
-
 # API 1
 
 @app.get("/API 1 Filmaciones-mes/", description="Esta consulta devuelve la cantidad de peliculas que se estranaron en ese mes sin importar el año")

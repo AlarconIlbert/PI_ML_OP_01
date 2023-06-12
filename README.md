@@ -11,8 +11,8 @@
 
 [![Linkedin: thaianebraga](https://img.shields.io/badge/-ILBERT-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ilbert-ferney-alarcon-bothia/)](https://www.linkedin.com/in/anmol-p-singh/)![GitHub followers](https://img.shields.io/github/followers/AlarconIlbert?label=Follow&style=social) [![](https://img.shields.io/badge/Outlook-ilbert.alarcon@outlook.com-red)](mailto:ilbert.alarcon@outlook.com)
 
-**Cohorte 11**
-**PI_ML_OP_01**
+**Cohorte 11**<br>
+**PI_ML_OP_01**<br>
 Repositorio PI-01 HENRY
 
 # Sistema de Recomendaciones
@@ -55,18 +55,27 @@ pip install -r requirements.txt
 ```
 5. Inicia la aplicación.
 ```python
-uvicorn main: app --reload
+uvicorn main:app --reload
 ```
 
 ## Documentación de la API
 
 La API proporciona varios endpoints para interactuar con el Sistema de Recomendaciones. A continuación se muestra una breve descripción de cada uno:
 
-- `GET /recomendaciones/{usuario}`: Obtiene las recomendaciones personalizadas para un usuario específico.
-- `POST /calificar/{usuario}/{pelicula}/{calificacion}`: Permite a un usuario calificar una película específica.
-- `GET /peliculas/{genero}`: Obtiene una lista de películas filtradas por género.
+- `GET /API 1 Filmaciones-mes/{mes}`: Esta consulta devuelve la cantidad de peliculas que se estranaron en ese mes sin importar el año.
+- `GET /API 2 Filmaciones-dia/{dia}`: Esta consulta devuelve la cantidad de peliculas que se estranaron ese dia de la semana sin importar el año.
+- `GET /API 3 Filmaciones/{titulo}`: Esta consulta tiene el modulo de ayuda Ayuda Consulta de titulos, devuelve el año de estreno, la pularidad de cada una de las peliculas con este nombre.
+- `GET /API 4 Votos Titulo/{titulo}`: Esta consulta tiene el modulo de ayuda Ayuda Consulta de titulos, devuelve el titulo, la cantidad de votos simempre y cuando sea mayor a 2000 y el promedio de votos.
+- `GET /API 5 Actor/{nombre_actor}`: Esta consulta tiene el modulo de ayuda Ayuda Consulta Actor, Esta consulta devuelve el mayor exito, la cantidad de peliculas y el promedio de retorno.
+- `GET /API 6 directores/{nombre_director}`: Esta consulta tiene el modulo de Ayuda Consulta de Directores, Devuelve el mayor exito del diurector asi como sus peliculas.
+- `GET /Sistema de Recomendaciones/{recomendacion}`: Esta consulta tiene el modulo de Ayuda Consulta de Titulos, Devuelve 5 recomendaciones de peliculas basadas en un analisis de contenido.
 
-Consulta la [documentación completa de la API](./docs/api-docs.md) para obtener más detalles sobre cada endpoint y cómo utilizarlos.
+
+Consulta la [documentación completa](https://github.com/AlarconIlbert/PI_ML_OP_01/blob/master/requirements.txt) para obtener más detalles sobre cada endpoint y cómo utilizarlos.
+
+## Deploy
+
+https://fastapi-movies-pi-ilbert.onrender.com
 
 ## Contribución
 
